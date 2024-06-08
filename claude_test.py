@@ -5,7 +5,6 @@ import os
 
 # Create an instance of the Anthropic client, passing in API key:
 client = anthropic.Anthropic(
-    # defaults to os.environ.get("ANTHROPIC_API_KEY")
     api_key=os.environ.get("ANTHROPIC_API_KEY"),
 )
 
